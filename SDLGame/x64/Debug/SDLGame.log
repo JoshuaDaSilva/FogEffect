@@ -1,0 +1,62 @@
+﻿CameraManager.obj : error LNK2001: unresolved external symbol __imp___glewClearBufferfv
+main.obj : error LNK2001: unresolved external symbol __imp___glewClearBufferfv
+EventHandler.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "public: static bool __cdecl EventHandler::Update(void)" (?Update@EventHandler@@SA_NXZ)
+EventHandler.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: static bool __cdecl EventHandler::Update(void)" (?Update@EventHandler@@SA_NXZ)
+GamePlayManager.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl GamePlayManager::DisplaySplashScreen(struct SDL_Window *,struct SDL_Renderer *)" (?DisplaySplashScreen@GamePlayManager@@QEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@@Z)
+GamePlayManager.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl GamePlayManager::DisplaySplashScreen(struct SDL_Window *,struct SDL_Renderer *)" (?DisplaySplashScreen@GamePlayManager@@QEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@@Z)
+GamePlayManager.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "private: void __cdecl GamePlayManager::SwapSplash(struct SDL_Window *,struct SDL_Renderer *,unsigned int,class GameObject2D)" (?SwapSplash@GamePlayManager@@AEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@IVGameObject2D@@@Z)
+GamePlayManager.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "private: void __cdecl GamePlayManager::SwapSplash(struct SDL_Window *,struct SDL_Renderer *,unsigned int,class GameObject2D)" (?SwapSplash@GamePlayManager@@AEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@IVGameObject2D@@@Z)
+main.obj : error LNK2001: unresolved external symbol SDL_Delay
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "void __cdecl Shutdown(struct SDL_Window *)" (?Shutdown@@YAXPEAUSDL_Window@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+ShaderManager.obj : error LNK2001: unresolved external symbol SDL_GL_SetAttribute
+main.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_GL_DeleteContext referenced in function "void __cdecl Shutdown(struct SDL_Window *)" (?Shutdown@@YAXPEAUSDL_Window@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "void __cdecl Shutdown(struct SDL_Window *)" (?Shutdown@@YAXPEAUSDL_Window@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "bool __cdecl Init(struct SDL_Window * *,struct SDL_Renderer * *)" (?Init@@YA_NPEAPEAUSDL_Window@@PEAPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+main.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp_glewExperimental
+Cube.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Cube.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+GameObject2D.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl GameObject2D::Draw(struct SDL_Window *,struct SDL_Renderer *)" (?Draw@GameObject2D@@QEAAXPEAUSDL_Window@@PEAUSDL_Renderer@@@Z)
+Wall.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Wall.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Wall.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDeleteProgram
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDisableVertexAttribArray
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewUniform3fv
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDrawArraysInstanced
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewDeleteVertexArrays
+ShaderManager.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+Utils.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+Utils.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: static int __cdecl Utils::LoadSprite(char const *,struct SDL_Renderer *,struct SDL_Point *,struct SDL_Texture * *)" (?LoadSprite@Utils@@SAHPEBDPEAUSDL_Renderer@@PEAUSDL_Point@@PEAPEAUSDL_Texture@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\WINTER 2020\GAME 404 - Graphics II\Week_2\Lab1\SDLBaseProject\x64\Debug\SDLGame.exe : fatal error LNK1120: 50 unresolved externals
